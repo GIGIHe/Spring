@@ -1,0 +1,466 @@
+*{margin: 0;padding: 0;}
+html{ font-family: "Microsoft YaHei"; color:#333; font-size:100px;}
+html,body{width:100%;min-width:7.5rem;height:100%;background: #f4f4f4;}
+li{ list-style:none; }
+a{ text-decoration:none; color:#333; }
+a img{ border:0; }
+img{ vertical-align:middle;}
+table{border-collapse:collapse;border-spacing:0;}
+.clearfix{ *zoom:1; }
+.clearfix:after{ content:""; display:block; clear:both; }
+.fl{float: left}
+.fr{float: right}
+input {/*-webkit-appearance:none;*/outline: none}
+.main{width: 7.5rem;margin: 0 auto}
+.zg-wrap{margin: 0 auto;width: 7.5rem;}
+header {
+    width: 7.5rem;
+    height: .8rem;
+    background: #f2f2f2;
+}
+header a {
+    font:700 .2rem/.4rem "microsoft yahei";
+    color:#fff;
+}
+header a img {
+    float: left;
+}
+header .logo {
+    display: block;
+    float: left;
+    width: 2rem;
+    height: .36rem;
+    margin-top: .2rem;
+    margin-left: .3rem;
+}
+header .zgfb {
+    display: block;
+    float: right;
+    width: 1.15rem;
+    height: .36rem;
+    margin-right: .3rem;
+    margin-top: .2rem;
+}
+header .logo img {
+    width: .75rem;
+    height: .34rem;
+    margin-right: .1rem;
+}
+header .zgfb img {
+    width: .27rem;
+    height: .24rem;
+    margin-top: .12rem;
+}
+header.fixed {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    margin-left: -3.75rem;
+    z-index: 899;
+}
+.navbar {
+    box-shadow: none;
+    background: rgba(70,70,70,0);
+}
+.navbar.active {
+    background: rgb(255,255,255);
+    transition: background 3s;
+}
+.navbar.active a {
+    color:#000;
+}
+/*footer*/
+.foot{
+    position: fixed;
+    bottom:0;
+    width:7.5rem;
+    height:.9rem;
+    overflow: hidden;
+    z-index:999;
+}
+.foot a{
+    float: left;
+    width:3.75rem;
+    font:.26rem/0.9rem 'Microsoft YaHei';
+    text-align: center;
+}
+.foot a:first-child{
+    background: #f2f2f2;
+    color: #000;
+}
+.foot a:first-child img {
+    width: .47rem;
+    height: .4rem;
+    margin-right: .1rem;
+}
+.foot a:last-child{
+    background: #dc2f3c;
+    color: #fff;
+}
+.foot a:last-child img {
+    width: .3rem;
+    height: .38rem;
+    margin-right: .1rem;
+}
+
+
+/*m_banner*/
+.mban {
+    width: 7.5rem;
+    height:5.58rem;
+    background: url(../images/ban.jpg) no-repeat center top;
+    -webkit-background-size: 7.5rem;
+    background-size: 7.5rem;
+}
+.mban h1 {
+    text-indent: -9999px;
+    font-size: 0;
+    border: 1px solid red;
+    height: 0;
+    width: 0;
+}
+/*zgm1*/
+.zgm1 {
+  width:7.5rem;
+  height:14.1rem;
+  background: url(../images/m1.jpg) no-repeat center top;
+  -webkit-background-size: 7.5rem;
+  background-size: 7.5rem;
+  margin-top: -1px;
+  padding-top: 2.45rem;
+  box-sizing: border-box;
+}
+.zgm1 .cj-t{
+  font:600 .2rem "microsoft yahei";
+  color:#23396e;
+  text-align: center;
+}
+.zgm1 .line1{
+  display: flex;
+  justify-content: space-around;
+  background: url(../images/line.png) no-repeat center top;
+  -webkit-background-size:7.01rem .11rem;
+  background-size:7.01rem .11rem;
+  margin-top: .15rem;
+  padding: 0 .2rem;
+  box-sizing: border-box;
+}
+.zgm1 .line1 li{
+	position: relative;
+	width: 1.49rem;
+	height: 2.26rem;
+}
+.zgm1 .line1 li:nth-child(1){
+  background: url(../images/1.png) no-repeat center top;
+  -webkit-background-size:1.49rem;
+  background-size:1.49rem;
+}
+.zgm1 .line1 li:nth-child(2){
+  background: url(../images/2.png) no-repeat center top;
+  -webkit-background-size:1.49rem;
+  background-size:1.49rem;
+}
+.zgm1 .line1 li:nth-child(3){
+  background: url(../images/3.png) no-repeat center top;
+  -webkit-background-size:1.49rem;
+  background-size:1.49rem;
+}
+.zgm1 .line1 li:nth-child(4){
+  background: url(../images/4.png) no-repeat center top;
+  -webkit-background-size:1.49rem;
+  background-size:1.49rem;
+}
+.zgm1 .line2 li:nth-child(1){
+  background: url(../images/5.png) no-repeat center top;
+  -webkit-background-size:1.49rem;
+  background-size:1.49rem;
+}
+.zgm1 .line2 li:nth-child(2){
+  background: url(../images/6.png) no-repeat center top;
+  -webkit-background-size:1.49rem;
+  background-size:1.49rem;
+}
+.zgm1 .line2 li:nth-child(3){
+  background: url(../images/7.png) no-repeat center top;
+  -webkit-background-size:1.49rem;
+  background-size:1.49rem;
+}
+.zgm1 .line2 li:nth-child(4){
+  background: url(../images/8.png) no-repeat center top;
+  -webkit-background-size:1.49rem;
+  background-size:1.49rem;
+}
+.zgm1 .line1 a{
+  display: block;
+  font: 400 .2rem "microsoft yahei";
+  color: #254a83;
+  text-align: center;
+  border-radius: .1rem;
+  width: 1.15rem;
+  line-height: .3rem;
+  background: #ffecc3;
+  position: absolute;
+  bottom: .24rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.zgm1 li.click{
+ animation: shake 0.4s;
+}
+@-webkit-keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%, 50%{
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  30%, 90% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+}
+@keyframes shake {
+  0%, 100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+  }
+  10%, 50%{
+    -webkit-transform: translateX(-6px);
+    transform: translateX(-6px);
+  }
+  30%, 90% {
+    -webkit-transform: translateX(6px);
+    transform: translateX(6px);
+  }
+}
+.shake {
+  -webkit-animation-name: shake;
+  animation-name: shake;
+}
+.zgm1 li.click a{
+  background: #ffd172;
+  color: #00173a;
+}
+.zgm1 .cj-sm{
+  display: flex;
+  justify-content: space-around;
+  margin-top: .2rem;
+  padding: 0 .2rem;
+  box-sizing: border-box;
+}
+.zgm1 .cj-l img{
+  width: 3.52rem;
+  height: 2.35rem;
+  display: block;
+  margin: auto;
+}
+.zgm1 .cj-l p{
+  font: 400 .19rem "microsoft yahei";
+  color: #b51c17;
+  text-align: center;
+  border-bottom: 1px solid #b51c17;
+}
+.zgm1 .cj-r img{
+  width: 3.23rem;
+  height: 2.53rem;
+  display: block;
+  margin: auto;
+}
+.zgm1 .cj-r .sm{
+  width: 2.95rem;
+  height: 0.45rem;
+  background: url(../images/ll.png) no-repeat center top;
+  -webkit-background-size:2.95rem;
+  background-size:2.95rem;
+  font: 400 .2rem/.45rem "microsoft yahei";
+  color: #fff6d4;
+  text-align: center;
+  margin-bottom: .4rem;
+  margin-top: .4rem;
+}
+/*zgm2*/
+.zgm2 {
+  width: 7.5rem;
+  height: 9.15rem;
+  background: url(../images/m2.jpg) no-repeat center top;
+  -webkit-background-size:7.5rem;
+  background-size:7.5rem;
+  margin-top: -1px;
+  padding-top: 2.34rem;
+  box-sizing: border-box;
+}
+.zgm2 .m2-con{
+   display: flex;
+}
+.zgm2 .m2-con .m2-l{
+  width:4.41rem;
+  height:5.18rem;
+  background: url(../images/fz.png) no-repeat center top;
+  -webkit-background-size:4.41rem;
+  background-size:4.41rem;
+  padding: 3.5rem .8rem 0;
+  box-sizing: border-box;
+  margin-left: .2rem;
+}
+.zgm2 .m2-con .m2-l h4{
+  font: 600 .2rem "microsoft yahei";
+  color: #fff6d4;
+  text-align: center;
+}
+.zgm2 .m2-con .m2-l p{
+  font: 400 .18rem "microsoft yahei";
+  color: #fff6d4;
+  text-align: left;
+}
+.zgm2 .m2-con .m2-r img{
+  width: 1.5rem;
+  height: 1.5rem;
+  margin: 1.4rem 0 .6rem;
+  display: block;
+}
+.zgm2 .m2-con .m2-r .jz{
+  width: 3rem;
+    height: 1.48rem;
+    font: 400 .18rem "microsoft yahei";
+    color: #b51c17;
+    background: url(../images/dl.png) no-repeat left top;
+    -webkit-background-size: 3rem 1.48rem;
+    background-size: 3rem 1.48rem;
+    margin-left: -.4rem;
+    box-sizing: border-box;
+    padding-top: .28rem;
+    padding-left: .6rem;
+}
+.zgm3 {
+    width: 7.5rem;
+    height: 12.55rem;
+    background: url(../images/m3.jpg) no-repeat center top;
+    -webkit-background-size:7.5rem;
+    background-size:7.5rem;
+    margin-top: -1px;
+    padding-top: 2.4rem;
+    box-sizing: border-box;
+}
+.zgm3 .kc{
+  width: 7.11rem;
+  height:3.99rem;
+  background: url(../images/kc.png) no-repeat center top;
+  -webkit-background-size:7.11rem;
+  background-size:7.11rem;
+  padding: 0 0.5rem;
+  box-sizing: border-box;
+  margin:.2rem auto 0;
+}
+.zgm3 .kc h2{
+    font: 400 .22rem/.54rem "microsoft yahei";
+    color:#ffedae;
+    text-align: center;
+    margin-bottom: .1rem;
+}
+.zgm3 .kc h4{
+  font: 400 .22rem "microsoft yahei";
+	text-align: left;
+	color:#ffedae;
+	margin-bottom: .1rem;
+}
+.zgm3 .kc p{
+	font:400 .18rem "microsoft yahei";
+	text-align: left;
+	color:#ffedae;
+}
+.zgm3 .lw{
+  width: 5.14rem;
+  height: 1.32rem;
+  display: flex;
+  box-sizing: border-box;
+  padding: .26rem 0.2rem 0 .6rem;
+  background: url(../images/dll.png) no-repeat center top;
+  -webkit-background-size: 5.14rem;
+  background-size: 5.14rem;
+  justify-content: space-around;
+  margin: .12rem auto;
+}
+.zgm3 .lw .lw-l{
+	font:400 .2rem "microsoft yahei";
+	text-align: left;
+	color:#8a0302;
+}
+.zgm3 .lw .lw-r{
+	width: 1.47rem;
+	height: 1.32rem;
+	margin-top: -0.4rem;
+  background: url(../images/lbb.png) no-repeat center top;
+  -webkit-background-size: 1.47rem;
+  background-size: 1.47rem;
+}
+.zgm3 .lw .lw-r p:nth-child(1){
+	font:400 .18rem "microsoft yahei";
+    text-align: center;
+    color: #874f00;
+    margin-top: .1rem;
+    margin-bottom:.5rem;
+}
+.zgm3 .lw .lw-r p:nth-child(2){
+  font:400 .18rem "microsoft yahei";
+    text-align: center;
+    color: #fff;
+}
+.zgm3 .kc a{
+	display: block;
+	width: 2.22rem;
+  height: .33rem;
+  margin: auto;
+	margin-top: -.1rem;
+  background: url(../images/zx.png) no-repeat center top;
+  -webkit-background-size:2.22rem;
+  background-size:2.22rem;
+}
+.mask{
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	background: rgba(0,0,0,0.6);
+	z-index: 99;
+	display: none
+}
+.ii-frame{
+	width:6.49rem;
+	height: 6.48rem;
+	margin-top: -3.24rem;
+	margin-left: -3.24rem;
+	position: fixed;
+	left: 50%;
+	top: 50%;
+	z-index: 100;
+	padding-top: 2.20rem;
+	display: none;
+  background: url(../images/ii.png) no-repeat center top;
+  background-size: 6.49rem;
+  box-sizing: border-box;
+}
+.ii-frame img{
+	display: block;
+	width: 1.51rem;
+  height: 1.51rem;
+  margin-left: 2.4rem;
+	margin-bottom: .40rem;
+}
+.ii-frame p{
+	font:700 .2rem "microsoft yahei";
+  text-align: center;
+  color: #8a0302;
+}
+.ii-frame span{
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: .50rem;
+	height: .50rem;
+}
