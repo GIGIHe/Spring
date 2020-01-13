@@ -300,7 +300,7 @@ header.fixed {
   background: url(../images/fz.png) no-repeat center top;
   -webkit-background-size:4.41rem;
   background-size:4.41rem;
-  padding: 3.5rem .8rem 0;
+  padding: 3.4rem .8rem 0;
   box-sizing: border-box;
   margin-left: .2rem;
 }
@@ -340,7 +340,7 @@ header.fixed {
     -webkit-background-size:7.5rem;
     background-size:7.5rem;
     margin-top: -1px;
-    padding-top: 2.4rem;
+    padding-top: 2.2rem;
     box-sizing: border-box;
 }
 .zgm3 .kc{
@@ -360,10 +360,10 @@ header.fixed {
     margin-bottom: .1rem;
 }
 .zgm3 .kc h4{
-  font: 400 .22rem "microsoft yahei";
+  font: 600 .22rem "microsoft yahei";
 	text-align: left;
 	color:#ffedae;
-	margin-bottom: .1rem;
+	/* margin-bottom: .1rem; */
 }
 .zgm3 .kc p{
 	font:400 .18rem "microsoft yahei";
@@ -372,15 +372,15 @@ header.fixed {
 }
 .zgm3 .lw{
   width: 5.14rem;
-  height: 1.32rem;
+  height: 1.52rem;
   display: flex;
   box-sizing: border-box;
   padding: .26rem 0.2rem 0 .6rem;
   background: url(../images/dll.png) no-repeat center top;
-  -webkit-background-size: 5.14rem;
-  background-size: 5.14rem;
+  -webkit-background-size: 5.14rem 1.52rem;
+  background-size: 5.14rem 1.52rem;
   justify-content: space-around;
-  margin: .12rem auto;
+  margin: .04rem auto;
 }
 .zgm3 .lw .lw-l{
 	font:400 .2rem "microsoft yahei";
